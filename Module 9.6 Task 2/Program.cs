@@ -6,7 +6,7 @@ namespace Module_9._6_Task_2
     {
         static void Main(string[] args)
         {
-            string[] lastNames = { "Smith", "Johnson", "Williams", "Brown", "Jones" };
+            string[] lastNames = { "Smith", "Johnson", "Williams", "Brown", "Jones" };//Last Names 
             NumberReader numberReader = new NumberReader();
             numberReader.NumberEnteredEvent += SortNames;
 
